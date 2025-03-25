@@ -1,7 +1,7 @@
-console.log("Hello Boolean");
-// uso process.argv per prendere l'argomento che passo nel terminale
-const bonus = process.argv[2];
-// vedo l'array
-console.log(process.argv);
-// mostro l'argomento che passo scrivendo nel terminale
-console.log(bonus);
+// se l'utente passa l'argomento:
+if (process.argv[2]) {
+  console.log(process.argv[2]); // allora stampiamo il suo valore
+  // sennò
+} else {
+  console.log("Hello Boolean"); // stampiamo Hello Boolean
+}
