@@ -5,3 +5,9 @@ if (process.argv[2]) {
 } else {
   console.log("Hello Boolean"); // stampiamo Hello Boolean
 }
+
+// con operatore OR
+// console.log(process.argv[2] || "Hello Boolean");
+
+// con operatore ?? (operatore di coalescenza nulla)  Restituisce il primo valore non nullo (null) e non indefinito (undefined) tra gli operandi.
+// console.log(process.argv[2] ?? "Hello Boolean");
